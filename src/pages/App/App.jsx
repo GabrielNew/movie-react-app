@@ -5,6 +5,7 @@ import Favorites from "../Favorites/Favorites";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import { MovieProvider } from "../../contexts/MovieContext";
+import Login from "../Login/Login";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </main>
       <Footer />

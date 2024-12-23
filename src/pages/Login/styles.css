@@ -1,0 +1,84 @@
+#loginBackgroundBox {
+  width: 450px;
+  height: 400px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inputEmail {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 3px;
+  width: 50%;
+  margin: 10px;
+  top: 30%;
+  position: absolute;
+  left: 25%;
+}
+
+#userEmail {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+  border-radius: 10px;
+  height: 33px;
+  background: none;
+}
+
+.inputPassword {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 3px;
+  width: 50%;
+  margin: 10px;
+  top: 45%;
+  position: absolute;
+  left: 25%;
+}
+
+#userPassword {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+  border-radius: 10px;
+  height: 33px;
+  background: none;
+}
+
+#createAccountLink {
+  position: absolute;
+  top: 90%;
+  left: 21%;
+  padding: 10px;
+}
+
+#forgotPasswordLink {
+  position: absolute;
+  top: 90%;
+  left: 51%;
+  padding: 10px;
+}
+
+#iconEmail {
+  position: relative;
+  top: 3px;
+}
+
+#iconPassword {
+  position: relative;
+  top: 3px;
+}
+
+#logoImg {
+  position: absolute;
+  left: 43%;
+}
+
+#btnLogin {
+  position: absolute;
+  left: 43%;
+  top: 73%;
+}
