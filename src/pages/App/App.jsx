@@ -7,6 +7,7 @@ import Footer from "../../components/Footer/Footer";
 import { MovieProvider } from "../../contexts/MovieContext";
 import Login from "../Login/Login";
 import CreateAccount from "../CreateAccount/CreateAccount";
+import NotFoundPage404 from "../NotFoundPage404/NotFoundPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/login" element={<Login />} />
           <Route path="/CreateAccount" element={<CreateAccount />} />
+          <Route path="*" element={<NotFoundPage404 />} />
         </Routes>
       </main>
       <Footer />
